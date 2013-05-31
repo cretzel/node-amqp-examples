@@ -2,7 +2,8 @@ node-amqp-examples
 ==================
 
 Implementation of the RabbitMQ tutorial examples (http://www.rabbitmq.com/tutorials/). 
-Each example is a separate node application. To get the examples running, first call npm install.
+Each example is a separate node application. To get the examples running, install rabbitmq, node.js and 
+run npm install in one of the example subfolders.
 
 4. Routing: node-amqp-direct-routing
 ------------------------
