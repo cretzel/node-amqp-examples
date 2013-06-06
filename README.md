@@ -27,9 +27,9 @@ This is an implemenation of the 4th RabbitMQ tutorial example "Routing":
 A producer sends messages to direct exchange, each with a simple routing key ('black', 'white', ...). 
 Each consumer creates one queue and binds it to the same exchange with one of the routing keys.
             
-              /> |Q1| -> C1
+                 /> |Q1| -> C1
     P -> (Direct) 
-              \> |Q2| -> C2
+                 \> |Q2| -> C2
 
 ### Usage
 
