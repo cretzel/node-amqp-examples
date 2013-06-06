@@ -11,7 +11,7 @@ run npm install in one of the example subfolders.
 This example implements the 1st RabbitMQ tutorial example "Hello World":
 A producer sends a message 'directly' to a queue. Here 'directly' means that the message is send to the default exchange (named '') which forwards it to the named queue. The consumer subscribes to the queue with the same name.
 
-P -> (Direct '') -> |Q| -> C
+    P -> (Direct '') -> |Q| -> C
 
 ### Usage
  
@@ -28,7 +28,7 @@ A producer sends messages to direct exchange, each with a simple routing key ('b
 Each consumer creates one queue and binds it to the same exchange with one of the routing keys.
             
               /> |Q1| -> C1
-P -> (Direct) 
+    P -> (Direct) 
               \> |Q2| -> C2
 
 ### Usage
